@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="circular-image-container">
+        <image class="circular-image" src=" {% static 'images/mainpic.png' %} " alt="Image">
+        </div>
+    </div>
+
+    <div class="col-12 text-center mt-3">
+        <h4 class="title"> hi, My name is</h4>
+            <div class="name">
+                <h1>Jhon</h1>
+                <h1> I am an IT student</h1>
+            </div>
+    </div>
+
+        <div class="col-12 text-center mt-3">
+
+            <div class="col-12 d-flex justify-content-center align-items-center">
+
+            <a href="https://www.facebook.com/ehe.ehe.ror11" 
+            target="_blank" class="ms-3"> <img src="{% static 'images/Facebook_logo_(square).png' %}" alt="images/Facebook_logo_(square).png" width="50" 
+            height="50" class="social_links"> 
+            </a>
+
+            <a href="https://www.linkedin.com/in/gumasing-jhonedgar-99b62b337/" 
+            target="_blank" class="ms-3"> <img src="{% static 'images/linklogo.png' %}" alt="images/linklogo.png" width="50" 
+            height="50" class="social_links"> 
+            </a>
+
+            <a href="https://www.instagram.com/jani.yxri_?igsh=MXRhenhiNW1iNzRmdQ==" 
+            target="_blank" class="ms-3"> <img src="{% static 'images/images.jpeg' %}" alt="images/images.jpeg" width="50" 
+            height="50" class="social_links"> 
+            </a>
+
+            </div>
+        </div>
+
+</div>
+
+{% endblock content1 %}

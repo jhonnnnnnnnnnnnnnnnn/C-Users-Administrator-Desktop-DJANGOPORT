@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-4 text-center my-5 text-light">
+        <h1 class="mt-5"> Stay connected </h1>
+        <h3 class="mt-5"> gumasingjhonedgar7@gmail.com </h3>
+
+        <div class="col-12 text-center mt-3">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+
+                <a href="https://www.facebook.com/ehe.ehe.ror11" target="_blank" class="ms-3">
+                    <img src="{% static 'images/Facebook_logo_(square).png' %}" alt="Facebook Logo" width="50" height="50" class="social_links"> 
+                </a>
+
+                <a href="https://www.linkedin.com/in/gumasing-jhonedgar-99b62b337/" target="_blank" class="ms-3">
+                    <img src="{% static 'images/linklogo.png' %}" alt="LinkedIn Logo" width="50" height="50" class="social_links"> 
+                </a>
+
+                <a href="https://www.instagram.com/jani.yxri_?igsh=MXRhenhiNW1iNzRmdQ==" target="_blank" class="ms-3">
+                    <img src="{% static 'images/images.jpeg' %}" alt="Instagram Logo" width="50" height="50" class="social_links"> 
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-5 offset-1 mt-3">
+        <div class="container form-container" style="border: 2px solid white;
+                                                padding: 20px;
+                                                border-radius: 10px;
+                                                background-color: #f0f0f0;">
+            <form>
+                <div class="form-group m-3">
+                    <label for="exampleInputEmail1"> Name </label>
+                    <input type="type" class="form-control" id="exampleInputEmail1">
+                </div>
+
+                <div class="form-group m-3">
+                    <label for="email"> Email </label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="form-group m-3">
+                    <label for="phone"> Phone Number </label>
+                    <input type="tel" class="form-control" id="phone">
+                </div>
+
+                <div class="form-group m-3">
+                    <label for="msg"> Message </label>
+                    <textarea type="type" class="form-control" id="msg" rows="2"> </textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary"> Submit </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content1 %}
